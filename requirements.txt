@@ -1,1 +1,7 @@
-flet
+flet>=0.25.0
+requests
+cryptography
+Pillow
+plyer
+python-telegram-bot==21.4   # самая свежая версия
+psutil
