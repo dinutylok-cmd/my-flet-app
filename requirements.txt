@@ -1,7 +1,4 @@
 flet>=0.25.0
-requests
+python-telegram-bot==21.4
 cryptography
-Pillow
 plyer
-python-telegram-bot==21.4   # самая свежая версия
-psutil
