@@ -18,9 +18,11 @@ jobs:
           
       - name: Build APK
         run: |
-          flet build apk
+          # Добавляем --yes, чтобы он не спрашивал про установку Flutter
+          flet build apk --yes
           
       - name: Upload Artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: my-app-apk
